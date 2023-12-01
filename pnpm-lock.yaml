@@ -8,6 +8,9 @@ dependencies:
   '@thisbeyond/solid-dnd':
     specifier: ^0.7.5
     version: 0.7.5(solid-js@1.8.6)
+  solid-icons:
+    specifier: ^1.1.0
+    version: 1.1.0(solid-js@1.8.6)
   solid-js:
     specifier: ^1.8.5
     version: 1.8.6
@@ -1604,6 +1607,14 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /solid-icons@1.1.0(solid-js@1.8.6):
+    resolution: {integrity: sha512-IesTfr/F1ElVwH2E1110s2RPXH4pujKfSs+koT8rwuTAdleO5s26lNSpqJV7D1+QHooJj18mcOiz2PIKs0ic+A==}
+    peerDependencies:
+      solid-js: '*'
+    dependencies:
+      solid-js: 1.8.6
+    dev: false
 
   /solid-js@1.8.6:
     resolution: {integrity: sha512-yiH6ZfBBZ3xj/aU/PBpVKB+8r8WWp100NGF7k/Z0IrK9Y8Lv0jwvFiJY1cHdc6Tj7GqXArKnMBabM0m1k+LzkA==}
