@@ -1,7 +1,8 @@
-import './App.css'
+import Example from '@/pages/example'
 
 function App() {
-	return <h1>Hello World!</h1>
+	console.log('App')
+	return <Example />
 }
 
 export default App
