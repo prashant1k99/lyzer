@@ -26,7 +26,8 @@ export function ThemeProvider(props: {
 
 	createEffect(() => {
 		const root = window.document.documentElement
-		console.log('theme: ', theme())
+		// Select the favicon element
+		const linkElement = document.querySelector('link[rel="icon"]')
 
 		root.classList.remove('light', 'dark')
 
@@ -41,6 +42,10 @@ export function ThemeProvider(props: {
 		}
 
 		root.classList.add(theme())
+		linkElement?.setAttribute(
+			'href',
+			theme() === 'dark' ? '/logo-dark.svg' : '/logo.svg'
+		)
 	})
 
 	const toggleTheme = () => {

@@ -2,9 +2,8 @@ import Example from '@/pages/example'
 import NavBar from './components/NavBar'
 
 function App() {
-	console.log('App')
 	return (
-		<div class="flex min-h-screen w-full flex-col">
+		<div class="flex min-h-screen w-full flex-col bg-gray-200 dark:bg-slate-800">
 			<NavBar />
 			<Example />
 		</div>
