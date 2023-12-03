@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@thisbeyond/solid-dnd": "^0.7.5",
+    "canvas-datagrid": "^0.4.6",
+    "danfojs": "^1.1.2",
     "solid-icons": "^1.1.0",
     "solid-js": "^1.8.5"
   },

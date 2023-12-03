@@ -1,5 +1,5 @@
 import { AiOutlineDeleteColumn } from 'solid-icons/ai'
-import { LyzerElement } from '.'
+import { LyzerElement } from '..'
 
 export const DropColumnLyzerElement: LyzerElement = {
 	type: 'DropColumn',
