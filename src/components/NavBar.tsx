@@ -1,7 +1,7 @@
 import { RiWeatherMoonClearLine } from 'solid-icons/ri'
 import { BiSolidNetworkChart } from 'solid-icons/bi'
 import { FiSun } from 'solid-icons/fi'
-import { useTheme } from '@/context/ThemeContext'
+import { useTheme } from '../lib/ThemeContext'
 import { Show } from 'solid-js'
 
 export default function NavBar() {
